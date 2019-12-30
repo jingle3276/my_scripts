@@ -1,0 +1,6 @@
+swtich from using /jffs to /mnt/data/my_scripts 
+setup environment vars at boot: 
+  adding GIT_SSH_COMMAND="ssh -i /etc/dropbear/dropbear_rsa_host_key"
+  adding HOME scripts
+
+
