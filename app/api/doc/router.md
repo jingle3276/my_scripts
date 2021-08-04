@@ -1,0 +1,10 @@
+
+/uptime
+
+GET 
+
+
+/reboot
+PUT
+
+

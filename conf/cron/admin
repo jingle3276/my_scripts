@@ -1,0 +1,17 @@
+# root's crontab file. this will be copied over to /var/spool/cron/crontabs/
+# note: this file should be put into /jffs/my_scripts/admin in order to have the script_usbmount.sh to copy
+
+# runs every 12 hours for fix ntp time sync
+* */12 * * * /jffs/my_scripts/sync_time.sh
+
+# wake up brix2807 at 5:00 PM weekdays
+#0 17 * * 1-5 /mnt/data/my_scripts/wake_brix2807.sh
+# wake up brix2807 at 10:00 AM weekends
+#0 10 * * 6-7 /mnt/data/my_scripts/wake_brix2807.sh
+
+# put brix2808 in sleep at 2 AM everyday  
+#0 2 * * * /mnt/data/my_scripts/openssh_ssh_brix.sh systemctl poweroff 
+
+# reschedule TP Link Power Plug on everyday 8PM localtime
+#0 20 * * * python3 /mnt/data/my_scripts/smart_plug/driver.py > /mnt/data/my_scripts/smart_plug/log
+

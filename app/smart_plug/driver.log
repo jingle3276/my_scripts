@@ -1,0 +1,112 @@
+group_size: 2, group schedule: [(60, 180, 84), (180, 300, 86), (300, 420, 74), (420, 540, 66)]
+total hour: 5.1666666666666661, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 93), (180, 300, 81), (300, 420, 62), (420, 540, 52)]
+total hour: 4.8000000000000007, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 74), (180, 300, 65), (300, 420, 49), (420, 540, 41)]
+total hour: 3.8166666666666664, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 73), (180, 300, 72), (300, 420, 58), (420, 540, 53)]
+total hour: 4.2666666666666666, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 71), (180, 300, 73), (300, 420, 63), (420, 540, 54)]
+total hour: 4.3500000000000005, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 51), (180, 300, 53), (300, 420, 43), (420, 540, 36)]
+total hour: 3.0500000000000003, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 41), (180, 300, 57), (300, 420, 51), (420, 540, 42)]
+total hour: 3.1833333333333336, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 46), (180, 300, 52), (300, 420, 46), (420, 540, 40)]
+total hour: 3.0666666666666664, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 72), (180, 300, 85), (300, 420, 77), (420, 540, 67)]
+total hour: 5.0166666666666675, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 76), (180, 300, 77), (300, 420, 64), (420, 540, 50)]
+total hour: 4.4499999999999993, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 69), (180, 300, 74), (300, 420, 66), (420, 540, 59)]
+total hour: 4.4666666666666668, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 59), (180, 300, 71), (300, 420, 63), (420, 540, 54)]
+total hour: 4.1166666666666671, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 72), (180, 300, 82), (300, 420, 72), (420, 540, 65)]
+total hour: 4.8499999999999996, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 72), (180, 300, 86), (300, 420, 77), (420, 540, 68)]
+total hour: 5.0500000000000007, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 67), (180, 300, 65), (300, 420, 55), (420, 540, 45)]
+total hour: 3.8666666666666667, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 52), (180, 300, 56), (300, 420, 47), (420, 540, 41)]
+total hour: 3.2666666666666666, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 55), (180, 300, 50), (300, 420, 37), (420, 540, 30)]
+total hour: 2.8666666666666667, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 58), (180, 300, 73), (300, 420, 67), (420, 540, 61)]
+total hour: 4.3166666666666664, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 65), (180, 300, 67), (300, 420, 60), (420, 540, 51)]
+total hour: 4.0499999999999998, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 71), (180, 300, 63), (300, 420, 51), (420, 540, 44)]
+total hour: 3.8166666666666669, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 60), (180, 300, 69), (300, 420, 60), (420, 540, 55)]
+total hour: 4.0666666666666664, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 73), (180, 300, 81), (300, 420, 70), (420, 540, 60)]
+total hour: 4.7333333333333334, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 63), (180, 300, 67), (300, 420, 55), (420, 540, 45)]
+total hour: 3.8333333333333335, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 50), (180, 300, 52), (300, 420, 46), (420, 540, 41)]
+total hour: 3.1500000000000004, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 32), (180, 300, 46), (300, 420, 42), (420, 540, 37)]
+total hour: 2.6166666666666667, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 28), (180, 300, 26), (300, 420, 27), (420, 540, 32)]
+total hour: 1.8833333333333333, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 41), (180, 300, 49), (300, 420, 44), (420, 540, 38)]
+total hour: 2.8666666666666667, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 42), (180, 300, 39), (300, 420, 30), (420, 540, 26)]
+total hour: 2.2833333333333332, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 30), (180, 300, 36), (300, 420, 32), (420, 540, 28)]
+total hour: 2.1000000000000001, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 31), (180, 300, 25)]
+total hour: 0.93333333333333335, hour range: 1.0-5.0
+group_size: 2, group schedule: [(60, 180, 56), (180, 300, 76), (300, 420, 72), (420, 540, 62)]
+total hour: 4.4333333333333336, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 60), (180, 300, 56), (300, 420, 46), (420, 540, 38)]
+total hour: 3.3333333333333335, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 28), (180, 300, 38), (300, 420, 36), (420, 540, 33)]
+total hour: 2.25, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 71), (180, 300, 67), (300, 420, 51), (420, 540, 37)]
+total hour: 3.7666666666666666, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 60), (180, 300, 61), (300, 420, 51), (420, 540, 44)]
+total hour: 3.6000000000000001, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 68), (180, 300, 64), (300, 420, 52), (420, 540, 46)]
+total hour: 3.8333333333333335, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 57), (180, 300, 62), (300, 420, 57), (420, 540, 51)]
+total hour: 3.7833333333333337, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 41), (180, 300, 44), (300, 420, 36), (420, 540, 29)]
+total hour: 2.5, hour range: 1.0-9.0
+group_size: 2, group schedule: [(180, 300, 31), (300, 420, 30), (420, 540, 28)]
+total hour: 1.4833333333333334, hour range: 3.0-9.0
+group_size: 2, group schedule: [(180, 300, 32), (300, 420, 44), (420, 540, 43)]
+total hour: 1.9833333333333334, hour range: 3.0-9.0
+group_size: 2, group schedule: [(60, 180, 29), (180, 300, 31), (300, 420, 28), (420, 540, 26)]
+total hour: 1.9000000000000001, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 63), (180, 300, 69), (300, 420, 61), (420, 540, 55)]
+total hour: 4.1333333333333337, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 56), (180, 300, 59), (300, 420, 49), (420, 540, 42)]
+total hour: 3.4333333333333336, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 47), (180, 300, 39), (300, 420, 31), (420, 540, 28)]
+total hour: 2.416666666666667, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 27), (180, 300, 29), (300, 420, 24)]
+total hour: 1.3333333333333335, hour range: 1.0-7.0
+group_size: 2, group schedule: [(60, 180, 29), (180, 300, 33), (300, 420, 41), (420, 540, 45)]
+total hour: 2.4666666666666668, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 45), (180, 300, 47), (300, 420, 41), (420, 540, 36)]
+total hour: 2.8166666666666669, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 21), (180, 300, 22), (300, 420, 22), (420, 540, 21)]
+total hour: 1.4333333333333331, hour range: 1.0-9.0
+group_size: 2, group schedule: [(420, 540, 21)]
+total hour: 0.34999999999999998, hour range: 7.0-9.0
+group_size: 2, group schedule: [(60, 180, 34), (180, 300, 43), (300, 420, 41), (420, 540, 39)]
+total hour: 2.6166666666666667, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 47), (180, 300, 49), (300, 420, 42), (420, 540, 38)]
+total hour: 2.9333333333333331, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 21), (180, 300, 21)]
+total hour: 0.69999999999999996, hour range: 1.0-5.0
+group_size: 2, group schedule: [(60, 180, 34), (180, 300, 37), (300, 420, 36), (420, 540, 33)]
+total hour: 2.333333333333333, hour range: 1.0-9.0
+group_size: 2, group schedule: [(60, 180, 24), (180, 300, 26), (300, 420, 27), (420, 540, 26)]
+total hour: 1.7166666666666668, hour range: 1.0-9.0
+group_size: 2, group schedule: [(420, 540, 21)]
+total hour: 0.34999999999999998, hour range: 7.0-9.0
+group_size: 2, group schedule: [(300, 420, 21), (420, 540, 21)]
+total hour: 0.69999999999999996, hour range: 5.0-9.0

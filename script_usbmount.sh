@@ -8,7 +8,7 @@
 
 
 # copy admin (the crontab file) to crond watch dir
-cp /jffs/my_scripts/admin /var/spool/cron/crontabs
+cp /jffs/my_scripts/conf/cron/admin /var/spool/cron/crontabs
 
 # sync-time once so don't wait 5 minutes 
 /jffs/my_scripts/sync_time.sh
@@ -22,3 +22,19 @@ ln -sf /tmp/mnt/entware/entware-ng.arm /tmp/opt
 /opt/etc/init.d/rc.unslung start
 fi
 
+
+# add brix2807 (192.168.3.208) to dropbear (ssh) known host: /tmp/home/root/.ssh/known_hosts
+# this will ensure dropbear ssh command run without asking comfirm unknown host (first time after boot)
+# echo 192.168.3.208 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOQ4g/cypUfRKORf0nGThOuYFsD6HOY4/GQdGmUbrJEecHSXv3Jklkq2u8WIlDSFY/TQKr6jzhJzeeGkfMdM17A= > /tmp/home/root/.ssh/known_hosts
+
+
+# copy conf files: .profile and gitconfig to $HOME
+cp /tmp/mnt/data/my_scripts/conf/* /tmp/home/root/
+
+
+# start django webapp
+#/opt/bin/python /tmp/mnt/data/django/mysite/manage.py runserver 0.0.0.0:8000
+
+
+# start bottle webapp
+/tmp/mnt/data/my_scripts/start_bottle_server.sh
