@@ -32,7 +32,7 @@ fi
 
 
 # copy conf files to root $HOME
-cp /tmp/mnt/data/my_scripts/conf/.gitignore /tmp/home/root/
+cp -a /mnt/data/my_scripts/conf/. /tmp/home/root/
 
 # copy .ssh files
 

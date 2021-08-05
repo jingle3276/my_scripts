@@ -9,3 +9,4 @@ Install to:
 
 git clone this repo 
 
+this line is updated in /jffs via symlink
