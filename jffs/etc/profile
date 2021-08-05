@@ -1,0 +1,5 @@
+#This file should exsit on /jffs/etc/profile
+#etc/profile checks for and sources /jffs/etc/profile, so it should have picked up from there in my first attempt
+#This is system wide env variables
+BRIX2807_HOST=192.168.3.208
+MY_SCRIPTS_HOME=/tmp/mnt/data/my_scripts

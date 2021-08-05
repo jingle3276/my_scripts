@@ -1,4 +1,5 @@
 # this script will be executed when usbmount happends (shortly after boot)
+# https://github.com/RMerl/asuswrt-merlin.ng/wiki/User-scripts
 
 # must have this in the nvram entry: 
 #   nvram set script_usbmount="/jffs/my_scripts/script_usbmount.sh"
@@ -8,7 +9,7 @@
 
 
 # copy admin (the crontab file) to crond watch dir
-cp /jffs/my_scripts/conf/cron/admin /var/spool/cron/crontabs
+cp /jffs/my_scripts/admin /var/spool/cron/crontabs
 
 # sync-time once so don't wait 5 minutes 
 /jffs/my_scripts/sync_time.sh
@@ -22,14 +23,18 @@ ln -sf /tmp/mnt/entware/entware-ng.arm /tmp/opt
 /opt/etc/init.d/rc.unslung start
 fi
 
+# mount swap file 256MB
+/sbin/swapon /tmp/mnt/entware/swap.swp
 
 # add brix2807 (192.168.3.208) to dropbear (ssh) known host: /tmp/home/root/.ssh/known_hosts
 # this will ensure dropbear ssh command run without asking comfirm unknown host (first time after boot)
 # echo 192.168.3.208 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOQ4g/cypUfRKORf0nGThOuYFsD6HOY4/GQdGmUbrJEecHSXv3Jklkq2u8WIlDSFY/TQKr6jzhJzeeGkfMdM17A= > /tmp/home/root/.ssh/known_hosts
 
 
-# copy conf files: .profile and gitconfig to $HOME
-cp /tmp/mnt/data/my_scripts/conf/* /tmp/home/root/
+# copy conf files to root $HOME
+cp /tmp/mnt/data/my_scripts/conf/.gitignore /tmp/home/root/
+
+# copy .ssh files
 
 
 # start django webapp
