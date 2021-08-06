@@ -1,0 +1,4 @@
+nohup: can't execute 'backup_sda1_entware_partition.sh': No such file or directory
+2021_08_05_22_58_12: backup running, src partion: /dev/sda1, remote host: 192.168.3.208, destination: /mnt/data/backup/partition_images/sda1_entware_2021_08_05_22_58_12.partition.gzip
+46223+1 records in
+46224+0 records out

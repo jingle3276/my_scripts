@@ -14,4 +14,3 @@
 
 # reschedule TP Link Power Plug on everyday 8PM localtime
 #0 20 * * * python3 /mnt/data/my_scripts/smart_plug/driver.py > /mnt/data/my_scripts/smart_plug/log
-

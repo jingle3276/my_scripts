@@ -31,10 +31,12 @@ fi
 # echo 192.168.3.208 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOQ4g/cypUfRKORf0nGThOuYFsD6HOY4/GQdGmUbrJEecHSXv3Jklkq2u8WIlDSFY/TQKr6jzhJzeeGkfMdM17A= > /tmp/home/root/.ssh/known_hosts
 
 
+# symlink .ssh from jffs to root home. target must be removed before ln
+rm -rf /tmp/home/root/.ssh ; ln -s /jffs/my_scripts/secrets/.ssh /tmp/home/root/.ssh
+
+
 # copy conf files to root $HOME
 cp -a /mnt/data/my_scripts/conf/. /tmp/home/root/
-
-# copy .ssh files
 
 
 # start django webapp

@@ -9,7 +9,7 @@ remote_host=192.168.3.208
 src_partition=/dev/sda1
 file_name=sda1_entware_${timestamp}.partition.gzip
 file_full_path=/mnt/data/backup/partition_images/${file_name}
-remote_file_full_path=/srv/samba/data/backup/ac68u/${file_name}
+remote_file_full_path=/srv/samba/data/backup/ac68u/partition/${file_name}
 
 
 
