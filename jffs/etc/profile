@@ -7,4 +7,5 @@ export MY_SCRIPTS_HOME=/tmp/mnt/data/my_scripts
 alias scripts="cd $MY_SCRIPTS_HOME"
 alias jffs="cd /jffs/my_scripts"
 alias deploy=$MY_SCRIPTS_HOME/jffs_deploy.sh
-alias backup_sda1=nohup $MY_SCRIPTS_HOME/backup_sda1_entware_partition.sh &
+alias backup_sda1="nohup ${MY_SCRIPTS_HOME}/backup_sda1_entware_partition.sh &"
+alias backup_nvram="nohup ${MY_SCRIPTS_HOME}/backup_nvram.sh &"
